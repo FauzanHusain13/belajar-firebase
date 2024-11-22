@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase 9</title>
+</head>
+<body>
+  <h1>Getting Started with Firebase 9</h1>
+
+  <h2>Firebase Firestore</h2>
+
+  <form class="add">
+    <label for="name">name:</label>
+    <input type="text" name="name" required>
+    <label for="weight">weight:</label>
+    <input type="number" name="weight" required>
+    
+    <button>add a new boxer</button>
+  </form>
+
+  <form class="delete">
+    <label for="id">Document id:</label>
+    <input type="text" name="id" required>
+
+    <button>delete a boxer</button>
+  </form>
+
+  <form class="update">
+    <label for="id">Document id:</label>
+    <input type="text" name="id" required>
+
+    <button>update a boxer</button>
+  </form>
+
+  <script src="bundle.js"></script>
+</body>
+</html>
